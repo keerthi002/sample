@@ -10,11 +10,16 @@
 }
 .hr{
     size: 2px;
-        color:#00ACC1; 
-      
-        
+        color:#00ACC1;         
 }
-/* @media (max-width: 768px) {
-    .hero-icon {
+.btn{
+    display: inline-block;
+    padding:0.375rem 0.75rem;
+    font-weight: 400;
+    cursor: pointer;
+    background-color: initial;
+}
+ /*@media (max-width: 768px) 
+    .hero-symbol {
         display: none;
     }
