@@ -12,8 +12,24 @@ body{
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
+.mt-5 {
+    margin-top: 3rem!important;
+}
+.shadow-sm{
+    box-shadow: 0.125rem .25rem, rgba(0,0,0,0.075);
+}
+.fixed-bottom, .fixed-top {
+    top: 0;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
 [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
     cursor: pointer;
+}
+.align-items-center {
+    align-items: center!important;
 }
 .btn {
     display: inline-block;
@@ -33,15 +49,15 @@ body{
     border-radius: 0.25rem;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
-.btn-blue-border {
-    color: #1687a7;
-    border: 1px solid #1687a7;
-}
-
 .btn-blue {
     border: 1px solid #1687a7;
-
+    color: #f6f5f5;
     background-color: #1687a7;
+}
+.btn-group-lg>.btn, .btn-lg {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
 }
 .btn-blue, .btn-blue-border, .font-poppins {
     font-family: Poppins,sans-serif;}
@@ -50,6 +66,16 @@ body{
     font-size: 1.25rem;
     border-radius: 0.3rem;
 }
+.btn-blue:hover {
+    border: 1px solid #1687a7;
+    color: #1687a7;
+}
+
+.btn-blue-border {
+    color: #1687a7;
+    border: 1px solid #1687a7;
+}
+
 .text-blue {
     color: #1687a7;
 }
@@ -68,15 +94,7 @@ body{
 .btn-blue, .btn-blue-border, .font-poppins {
     font-family: Poppins,sans-serif;
 }
-.btn-group-lg>.btn, .btn-lg {
-    padding: 0.5rem 1rem;
-    font-size: 1.25rem;
-    border-radius: 0.3rem;
-}
-.btn-blue:hover {
-    border: 1px solid #1687a7;
-    color: #1687a7;
-}
+
 .bg-transparent, .btn-blue:hover {
     --bs-bg-opacity: 1;
     background-color: initial!important;
@@ -87,7 +105,11 @@ body{
 @media (max-width:768px){
 .font-size-lg {
     font-size: 50px;
-}}
+}
+.font-size-md {
+    font-size: 21px;
+}
+}
 
 img {
     overflow-clip-margin: content-box;
@@ -97,29 +119,23 @@ img {
     max-width: 100%;
     height: auto;
 }
+.text-center {
+    text-align: center!important;
+}
 .offset-1 {
     margin-left: 8.33333333%;
 }
 .p-5 {
     padding: 3rem!important;
 }
-
-
+.fadeIn {
+    animation-duration: 1s;
+}
 .fadeInFast {
     animation-duration: .5s;
 }
 .fadeIn, .fadeInFast {
     animation-name: fadeIn;
-}
-.shadow-sm{
-    box-shadow: 0.125rem .25rem, rgba(0,0,0,0.075);
-}
-.fixed-bottom, .fixed-top {
-    top: 0;
-    position: fixed;
-    right: 0;
-    left: 0;
-    z-index: 1030;
 }
 
 .display-1{
