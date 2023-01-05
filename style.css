@@ -123,6 +123,9 @@ img {
     overflow-clip-margin: content-box;
     overflow: clip;
 }
+img, svg {
+    vertical-align: middle;
+}
 .img-fluid, .img-thumbnail {
     max-width: 100%;
     height: auto;
@@ -161,7 +164,7 @@ img {
 }
 .hr{
     size: 2px;
-        color:#00ACC1;         
+     color:#00ACC1;         
 }
 
  /*@media (max-width: 768px) 
