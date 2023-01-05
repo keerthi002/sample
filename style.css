@@ -38,7 +38,11 @@ body{
 @media (max-width: 768px){
 .font-size-lg {
     font-size: 50px;
-}}
+}
+.logo-img-fluid{
+    display:none
+}
+}
 .btn-blue, .btn-blue-border, .font-poppins {
     font-family: Poppins,sans-serif;
 }
