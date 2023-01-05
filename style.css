@@ -10,4 +10,90 @@
 .container {
     padding-top: 10vh;
 }
+.shadow{box-shadow:0 .5rem 1rem #00000026!important}
+.shadow-sm{box-shadow:0 .125rem .25rem rgba(0,0,0,.075)!important}
+.fixed-bottom, .fixed-top {
+    top: 0;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    background-color: initial;
+    border: 1px solid #0000;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn-blue-border {
+    color: #1687a7;
+    border: 1px solid #1687a7;
+ .btn-group-lg>.btn, .btn-lg {
+        padding: 0.5rem 1rem;
+        font-size: 1.25 rem;
+        border-radius: 0.3rem;
+    }
+.btn-blue, .btn-blue-border, .font-poppins {
+        font-family: Poppins,sans-serif;}
+}
+.btn-blue:hover {
+    border: 1px solid #1687a7;
+    color: #1687a7;
+}
+
+.d-flex{display:flex!important}
+.d-none{display:none!important}
+.align-items-center{align-items:center!important}
+.pointer {
+    cursor: pointer;
+}
+.col-12{flex:0 0 auto;width:100%}
+
+@media (min-width: 768px)
+{.font-size-lg{font-poppins font-size:68px}}
+@media (max-width: 768px)
+{.font-size-lg{font-size:50px}}
+@media (min-width: 768px)
+{.font-size-md{font-size:26px}}
+@media (max-width: 768px)
+{.font-size-md{font-size:21px}}
+@media (min-width: 768px)
+{.font-size-sm{font-size:16px}}
+@media (max-width: 768px)
+{.font-size-sm{font-size:13px}}
+.btn-blue, .btn-blue-border, .font-poppins {
+    font-family: Poppins,sans-serif;
+}
+
+.bg-transparent, .btn-blue:hover {
+    --bs-bg-opacity: 1;
+    background-color: initial!important;
+}
+
+.text-blue{color:#1687a7}
+.text-dark-blue{color:#276678}
+.my-3{margin-top:1rem!important;
+       margin-bottom:1rem!important;}
+.btn-lg{padding:.5rem 1rem;
+        font-size:1.25rem;
+        border-radius:.3rem}
+.btn-blue{border:1px solid #1687a7;
+           color:#f6f5f5;
+           background-color:#1687a7}
+.btn-blue-border{color:#1687a7;
+                  border:1px solid #1687a7}
+.text-center{text-align:center!important;}
+.style{backgroung-color: #f6f6f5}
 
