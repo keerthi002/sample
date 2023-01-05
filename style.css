@@ -15,10 +15,10 @@ body{
 .text-blue {
     color: #1687a7;
 }
-@media (max-width: 768px)
+@media (max-width: 768px){
 .font-size-lg {
     font-size: 50px;
-}
+}}
 .btn-blue, .btn-blue-border, .font-poppins {
     font-family: Poppins,sans-serif;
 }
