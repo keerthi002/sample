@@ -1,0 +1,13 @@
+#navbar {
+    padding: 3vh;
+    background-color: #F6F5F5;
+}
+
+#navbar a img {
+    height: 40px;
+}
+
+.container {
+    padding-top: 10vh;
+}
+
