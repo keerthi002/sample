@@ -12,12 +12,28 @@ body{
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
 .btn-blue-border {
     color: #1687a7;
     border: 1px solid #1687a7;
 }
+.btn-blue {
+    border: 1px solid #1687a7;
+
+    background-color: #1687a7;
+}
+.btn-lg {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+}
 .text-blue {
     color: #1687a7;
+}
+.text-dark-blue {
+    color: #276678;
 }
 @media (max-width: 768px){
 .font-size-lg {
