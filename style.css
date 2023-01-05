@@ -13,14 +13,39 @@ div{
 .container {
     padding-top: 10vh;
 }
-/*.shadow{box-shadow:0 .5rem 1rem #00000026!important}
-.shadow-sm{box-shadow:0 .125rem .25rem rgba(0,0,0,.075)!important}
+
+div{
+    display: block;
+}
+body{
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.mt-5 {
+    margin-top: 3rem!important;
+}
+.shadow-sm{
+    box-shadow: 0.125rem .25rem, rgba(0,0,0,0.075);
+}
 .fixed-bottom, .fixed-top {
     top: 0;
     position: fixed;
     right: 0;
     left: 0;
     z-index: 1030;
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+.align-items-center {
+    align-items: center!important;
 }
 .btn {
     display: inline-block;
@@ -40,45 +65,53 @@ div{
     border-radius: 0.25rem;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
-.btn-blue-border {
-    color: #1687a7;
+.btn-blue {
     border: 1px solid #1687a7;
+    color: #f6f5f5;
+    background-color: #1687a7;
 }
- .btn-blue {
-        border: 1px solid #1687a7;
-        color: #f6f5f5;
-        background-color: #1687a7;
-    }
-.btn-blue-border{color:#1687a7;
-               border:1px solid #1687a7}
+.btn-group-lg>.btn, .btn-lg {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+}
 .btn-blue, .btn-blue-border, .font-poppins {
-        font-family: Poppins,sans-serif;}
-
+    font-family: Poppins,sans-serif;}
+.btn-lg {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+}
 .btn-blue:hover {
     border: 1px solid #1687a7;
     color: #1687a7;
 }
 
-.d-flex{display:flex!important}
-.d-none{display:none!important}
-.align-items-center{align-items:center!important}
-.pointer {
-    cursor: pointer;
+.btn-blue-border {
+    color: #1687a7;
+    border: 1px solid #1687a7;
 }
-.col-12{flex:0 0 auto;width:100%}
 
-@media (max-width: 768px)
-{.font-size-lg{font-size:68px}}
-@media (max-width: 768px)
-{.font-size-lg{font-size:50px}}
-@media (min-width: 768px)
-{.font-size-md{font-size:26px}}
-@media (max-width: 768px)
-{.font-size-md{font-size:21px}}
-@media (min-width: 768px)
-{.font-size-sm{font-size:16px}}
-@media (max-width: 768px)
-{.font-size-sm{font-size:13px}}
+.text-blue {
+    color: #1687a7;
+}
+.text-dark-blue {
+    color: #276678;
+}
+.style{
+    padding: 3vh;
+    background-color:#F8f9f9;
+    box-sizing: border-box;
+   
+}
+.mt-3 {
+    margin-top: 1rem!important;
+}
+.btn-blue {
+    border: 1px solid #1687a7;
+    color: #f6f5f5;
+    background-color: #1687a7;
+}
 .btn-blue, .btn-blue-border, .font-poppins {
     font-family: Poppins,sans-serif;
 }
@@ -87,18 +120,67 @@ div{
     --bs-bg-opacity: 1;
     background-color: initial!important;
 }
-
-.text-blue{color:#1687a7}
-.text-dark-blue{color:#276678}
-.my-3{margin-top:1rem!important;
-       margin-bottom:1rem!important;}
-.btn-lg{padding:.5rem 1rem;
-        font-size:1.25rem;
-        border-radius:.3rem}
-
-.text-center{text-align:center!important;}
-.style{backgroung-color: #f6f6f5}
-.bg-transparent, .btn-blue:hover {
-    --bs-bg-opacity: 1;
-    background-color: initial!important;
+.pointer {
+    cursor: pointer;
 }
+@media (max-width:768px){
+.font-size-lg {
+    font-size: 50px;
+}
+.font-size-md {
+    font-size: 21px;
+}
+.font-size-sm {
+    font-size: 13px;
+}
+}
+.b-strong{
+    font-weight: bolder;
+}
+.display-1{
+    font-weight: bold;
+    color:  #00ACC1;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+img, svg {
+    vertical-align: middle;
+}
+.img-fluid, .img-thumbnail {
+    max-width: 100%;
+    height: auto;
+}
+.text-center {
+    text-align: center!important;
+}
+.offset-1 {
+    margin-left: 8.33333333%;
+}
+.p-5 {
+    padding: 3rem!important;
+}
+.fadeIn {
+    animation-duration: 1s;
+}
+.fadeInFast {
+    animation-duration: .5s;
+}
+.fadeIn, .fadeInFast {
+    animation-name: fadeIn;
+}
+
+
+.display-5{
+    font-size: medium;
+    font-weight: bold;
+    color:  #00ACC1;
+}
+.hr{
+    size: 2px;
+     color:#00ACC1;         
+}
+
+
+
