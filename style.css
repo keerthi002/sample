@@ -13,7 +13,7 @@ div{
 .container {
     padding-top: 10vh;
 }
-.shadow{box-shadow:0 .5rem 1rem #00000026!important}
+/*.shadow{box-shadow:0 .5rem 1rem #00000026!important}
 .shadow-sm{box-shadow:0 .125rem .25rem rgba(0,0,0,.075)!important}
 .fixed-bottom, .fixed-top {
     top: 0;
