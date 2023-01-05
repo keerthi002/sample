@@ -40,11 +40,12 @@
 .btn-blue-border {
     color: #1687a7;
     border: 1px solid #1687a7;
- .btn-group-lg>.btn, .btn-lg {
+.btn-group-lg>.btn, .btn-lg
+ {
         padding: 0.5rem 1rem;
-        font-size: 1.25 rem;
+        .font-size: 1.25 rem;
         border-radius: 0.3rem;
-    }
+ }
 .btn-blue, .btn-blue-border, .font-poppins {
         font-family: Poppins,sans-serif;}
 }
