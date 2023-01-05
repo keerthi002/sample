@@ -12,9 +12,17 @@ body{
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
-.btn-blue-border, .font-poppins {
+.text-blue {
+    color: #1687a7;
+}
+@media (max-width: 768px)
+.font-size-lg {
+    font-size: 50px;
+}
+.btn-blue, .btn-blue-border, .font-poppins {
     font-family: Poppins,sans-serif;
 }
+
 .btn {
     display: inline-block;
     font-weight: 400;
@@ -33,10 +41,27 @@ body{
     border-radius: 0.25rem;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
-.btn-blue-border {
-    color: #1687a7;
-    border: 1px solid #1687a7;
+.style{
+    padding: 3vh;
+    background-color:#F6F5F5;
 }
+.fadeInFast {
+    animation-duration: .5s;
+}
+.fadeIn, .fadeInFast {
+    animation-name: fadeIn;
+}
+.shadow-sm{
+    box-shadow: 0.125rem .25rem, rgba(0,0,0,0.075);
+}
+.fixed-bottom, .fixed-top {
+    top: 0;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
 .display-1{
     font-weight: bold;
     color:  #00ACC1;
