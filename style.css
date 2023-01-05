@@ -1,3 +1,6 @@
+div{
+    display: block;
+}
 #navbar {
     padding: 3vh;
     background-color: #F6F5F5;
@@ -40,15 +43,17 @@
 .btn-blue-border {
     color: #1687a7;
     border: 1px solid #1687a7;
-.btn-group-lg>.btn, .btn-lg
- {
-        padding: 0.5rem 1rem;
-        .font-size: 1.25 rem;
-        border-radius: 0.3rem;
- }
+}
+ .btn-blue {
+        border: 1px solid #1687a7;
+        color: #f6f5f5;
+        background-color: #1687a7;
+    }
+.btn-blue-border{color:#1687a7;
+               border:1px solid #1687a7}
 .btn-blue, .btn-blue-border, .font-poppins {
         font-family: Poppins,sans-serif;}
-}
+
 .btn-blue:hover {
     border: 1px solid #1687a7;
     color: #1687a7;
@@ -62,8 +67,8 @@
 }
 .col-12{flex:0 0 auto;width:100%}
 
-@media (min-width: 768px)
-{.font-size-lg{font-poppins font-size:68px}}
+@media (max-width: 768px)
+{.font-size-lg{font-size:68px}}
 @media (max-width: 768px)
 {.font-size-lg{font-size:50px}}
 @media (min-width: 768px)
@@ -90,11 +95,10 @@
 .btn-lg{padding:.5rem 1rem;
         font-size:1.25rem;
         border-radius:.3rem}
-.btn-blue{border:1px solid #1687a7;
-           color:#f6f5f5;
-           background-color:#1687a7}
-.btn-blue-border{color:#1687a7;
-                  border:1px solid #1687a7}
+
 .text-center{text-align:center!important;}
 .style{backgroung-color: #f6f6f5}
-
+.bg-transparent, .btn-blue:hover {
+    --bs-bg-opacity: 1;
+    background-color: initial!important;
+}
