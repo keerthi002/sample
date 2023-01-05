@@ -39,14 +39,25 @@ body{
 .font-size-lg {
     font-size: 50px;
 }
-.logo-img-fluid{
-    display:none
-}
+
 }
 .btn-blue, .btn-blue-border, .font-poppins {
     font-family: Poppins,sans-serif;
 }
-
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.img-fluid, .img-thumbnail {
+    max-width: 100%;
+    height: auto;
+}
+.offset-1 {
+    margin-left: 8.33333333%;
+}
+.p-5 {
+    padding: 3rem!important;
+}
 .btn {
     display: inline-block;
     font-weight: 400;
