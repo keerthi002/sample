@@ -1,4 +1,19 @@
-@charset "UTF-8";
+div{
+    display: block;
+}
+#navbar {
+    padding: 3vh;
+    background-color: #F6F5F5;
+}
+
+#navbar a img {
+    height: 40px;
+}
+
+.container {
+    padding-top: 10vh;
+}
+
 div{
     display: block;
 }
@@ -90,7 +105,7 @@ body{
    
 }
 .mt-3 {
-    margin-top: 1rem!important;
+    margin-top: 1rem !important;
 }
 .btn-blue {
     border: 1px solid #1687a7;
@@ -103,7 +118,7 @@ body{
 
 .bg-transparent, .btn-blue:hover {
     --bs-bg-opacity: 1;
-    background-color: initial!important;
+    background-color: initial !important;
 }
 .pointer {
     cursor: pointer;
@@ -119,7 +134,13 @@ body{
     font-size: 13px;
 }
 }
-
+.b-strong{
+    font-weight: bolder;
+}
+.display-1{
+    font-weight: bold;
+    color:  #00ACC1;
+}
 img {
     overflow-clip-margin: content-box;
     overflow: clip;
@@ -132,13 +153,13 @@ img, svg {
     height: auto;
 }
 .text-center {
-    text-align: center!important;
+    text-align: center !important;
 }
 .offset-1 {
     margin-left: 8.33333333%;
 }
 .p-5 {
-    padding: 3rem!important;
+    padding: 3rem !important;
 }
 .fadeIn {
     animation-duration: 1s;
@@ -149,14 +170,7 @@ img, svg {
 .fadeIn, .fadeInFast {
     animation-name: fadeIn;
 }
-.b strong {
-    font-weight: bolder;
-}
 
-.display-1{
-    font-weight: bold;
-    color:  #00ACC1;
-}
 
 .display-5{
     font-size: medium;
@@ -167,8 +181,3 @@ img, svg {
     size: 2px;
      color:#00ACC1;         
 }
-
- /*@media (max-width: 768px) 
-    .hero-symbol {
-        display: none;
-    }
