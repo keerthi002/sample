@@ -13,10 +13,6 @@ div{
 .container {
     padding-top: 10vh;
 }
-
-div{
-    display: block;
-}
 body{
     font-family: var(--bs-body-font-family);
     font-size: var(--bs-body-font-size);
@@ -133,6 +129,7 @@ body{
 .font-size-sm {
     font-size: 13px;
 }
+
 }
 .b-strong{
     font-weight: bolder;
@@ -141,7 +138,10 @@ body{
     font-weight: bold;
     color:  #00ACC1;
 }
-
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
 img, svg {
     vertical-align: middle;
 }
@@ -155,8 +155,9 @@ img, svg {
 .offset-1 {
     margin-left: 8.33333333%;
 }
+
 .p-5 {
-    padding: 3rem !important;
+    padding: 3rem!important;
 }
 .fadeIn {
     animation-duration: 1s;
@@ -172,7 +173,6 @@ img, svg {
     margin-bottom: 1rem!important;
 }
 .display-5{
-    font-size: medium;
     font-weight: bold;
     color:  #00ACC1;
 }
