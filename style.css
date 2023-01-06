@@ -141,10 +141,7 @@ body{
     font-weight: bold;
     color:  #00ACC1;
 }
-img {
-    overflow-clip-margin: content-box;
-    overflow: clip;
-}
+
 img, svg {
     vertical-align: middle;
 }
@@ -170,8 +167,10 @@ img, svg {
 .fadeIn, .fadeInFast {
     animation-name: fadeIn;
 }
-
-
+.my-3 {
+    margin-top: 1rem!important;
+    margin-bottom: 1rem!important;
+}
 .display-5{
     font-size: medium;
     font-weight: bold;
