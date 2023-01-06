@@ -123,12 +123,12 @@ body{
 .pointer {
     cursor: pointer;
 }
-@media (max-width:768px){
+@media (min-width:768px){
 .font-size-lg {
-    font-size: 50px;
+    font-size: 68px;
 }
 .font-size-md {
-    font-size: 21px;
+    font-size: 26px;
 }
 .font-size-sm {
     font-size: 13px;
